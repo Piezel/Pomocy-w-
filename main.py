@@ -9,7 +9,7 @@ funkcjeTekstowe();
 #Listy
 def listy():
     lista = ["bim","bim","bam","bam"]
-    print(lista[1],lista[-1],lista[:1],lista[1:3]) #Index 1, Index ostatni, Index w zbiorze (1, +inf), Indeks w zbiorze (1,3>
+    print(lista[1],lista[-1],lista[1:],lista[1:3]) #Index 1, Index ostatni, Index w zbiorze (1, +inf), Indeks w zbiorze (1,3>
     #W przypadku : , 1 element jest exlusive, 2 jest inclusive
     print(len(lista)) #Długość listy
     lista.append('bim') #Dodawanie do listy
